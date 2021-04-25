@@ -8,7 +8,11 @@ namespace Test1
         
     }
     // Do následujícího kódu doplňte definici třídy Zamestnanec a napište jaké jsou výhody a nevýhody dědičnosti kódu.
-
+    // Vyhody: trida, ktera zdedi muze pristupovat ke vsem funkcim zdedene tridy, spolehlivost z hlediska opetovneho pouziti, jelikoz kod (zdedeny) je jiz odladen a funkcni
+    //          dedicnost pomaha snizovani redundance kodu a snizuje spotrebu pameti
+    //
+    //Nevyhody: vazba mezi zakladni tridou a odvozenou, nespravne pouziti muze vest k jinemu reseni, nespravna zmena zakladni tridy primo ovlivni vsechny podrizene, zdedene
+    //          zdedene funkce pracuji pomaleji nez normalni
     class Zamestnanec : Osoba
     {
         public double Mzda { get; set; }
